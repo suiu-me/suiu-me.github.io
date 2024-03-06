@@ -9,7 +9,7 @@ export function Home() {
             <DefaultLayout>
                 <div className="content-center" css={contentCenterCss}>
                     <h1><Logo /></h1>
-                    <p css={css`margin-top: 0;margin-block-start: 0;`}>Code Rain, System Green.</p>
+                    <h2 css={sloganCss}>Code Rain, System Green.</h2>
                     <div css={css`margin-top:2rem;`}>
                         <ContactDetails />
                     </div>
@@ -26,4 +26,12 @@ const contentCenterCss = css`
     justify-content: center;
     gap: 1ch;
     height: calc(100vh - 100px);
+`
+
+const sloganCss = css`
+    
+    font-family: 'League Spartan', 'Noto Sans JP', sans-serif;
+    font-size:clamp(1.8rem, 1.669rem + 0.65vw, 2.16rem);
+    margin-top: 0;
+    margin-block-start: 0;
 `
