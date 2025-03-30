@@ -4,7 +4,7 @@ import { css } from '@emotion/react';
 export function Footer() {
     return (
         <footer css={footerCss}>
-            <p css={css`text-align: center;`} className="copyright">&copy; suiu 2024.</p>
+            <p css={css`text-align: center;`} className="copyright">&copy; suiu.</p>
         </footer>
     );
 }
